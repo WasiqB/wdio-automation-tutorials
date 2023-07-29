@@ -1,0 +1,19 @@
+{
+  "name": "yt-wdio-tutorial",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "@wdio/cli": "^8.13.14",
+    "@wdio/local-runner": "^8.13.13",
+    "@wdio/mocha-framework": "^8.13.13",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.2",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-wait-for": "^3.0.6"
+  },
+  "scripts": {
+    "wdio": "wdio run ./src/conf/wdio.conf.js"
+  }
+}
